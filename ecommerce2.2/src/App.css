@@ -1,0 +1,82 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px;
+    padding: 12px;
+    color:crimson;
+}
+  
+.conteiner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 225px;
+    height: 225px;
+}
+
+
+.card:hover {
+    cursor: pointer;
+}
+
+.nav {
+    background-color: lightslategray;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 30px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+.carrito {
+    font-size: 25px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+.carrito:hover {
+    cursor: pointer;
+}
